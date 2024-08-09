@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="Svg White">
+    <file>Svg/Home.svg</file>
+    <file>Svg/Notifications.svg</file>
+    <file>Svg/Order.svg</file>
+    <file>Svg/Payments.svg</file>
+    <file>Svg/Power.svg</file>
+    <file>Svg/Services.svg</file>
+    <file>Svg/Settings.svg</file>
+  </qresource>
+  <qresource prefix="Pictures">
+    <file>Background.png</file>
+    <file>g18132.png</file>
+    <file>8k (1).jpg</file>
+    <file>8k.jpg</file>
+    <file>8k (2).jpg</file>
+    <file>Png/burger-png-png-images-yellow-images-12.png</file>
+  </qresource>
+  <qresource prefix="Svg Black">
+    <file>Svg/Notifications B.svg</file>
+    <file>Svg/Power B.svg</file>
+    <file>Svg/Settings B.svg</file>
+  </qresource>
+</RCC>

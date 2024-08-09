@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1396</width>
+    <height>1718</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="Background" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1371</width>
+      <height>831</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(173, 10, 53);</string>
+    </property>
+    <widget class="QWidget" name="Sidebar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>331</width>
+       <height>831</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(41, 39, 40);
+border:none;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>260</y>
+        <width>331</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Segoe UI Black&quot;;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>Order</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Resources.qrc">
+        <normaloff>:/Svg White/Svg/Services.svg</normaloff>:/Svg White/Svg/Services.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>500</y>
+        <width>331</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Segoe UI Black&quot;;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>Settings</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Resources.qrc">
+        <normaloff>:/Svg White/Svg/Settings.svg</normaloff>:/Svg White/Svg/Settings.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>380</y>
+        <width>331</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Segoe UI Black&quot;;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>Collection</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Resources.qrc">
+        <normaloff>:/Svg White/Svg/Payments.svg</normaloff>:/Svg White/Svg/Payments.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>140</y>
+        <width>331</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Segoe UI Black&quot;;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Resources.qrc">
+        <normaloff>:/Svg White/Svg/Home.svg</normaloff>:/Svg White/Svg/Home.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Mainmenu" native="true">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>10</y>
+       <width>1041</width>
+       <height>821</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <widget class="QWidget" name="mainmenulogo" native="true">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>-1</y>
+        <width>121</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(173, 10, 53);</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>121</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="Resources.qrc">:/Svg White/Svg/Order.svg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>-1</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 87 12pt &quot;Segoe UI Black&quot;;
+color:white;
+</string>
+       </property>
+       <property name="text">
+        <string>Fast Food</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resources.qrc">:/Svg Black/Svg/Power B.svg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resources.qrc">:/Svg Black/Svg/Settings B.svg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resources.qrc">:/Svg Black/Svg/Notifications B.svg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>720</y>
+        <width>411</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(183, 170, 3);
+color:white;
+font: 75 14pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Order Now</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>180</y>
+        <width>641</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resources.qrc">:/Pictures/Png/burger-png-png-images-yellow-images-12.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-color: transparent</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#f2ae03;&quot;&gt;Starting from Only&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>260</y>
+        <width>441</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-color: transparent</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:72pt; font-weight:600; color:#f2ae03;&quot;&gt;Rs 150&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>420</y>
+        <width>491</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-color: transparent</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Welcome to Flavor Haven Restaurant Catalog!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Indulge your taste buds in a culinary journey like never before at Flavor Haven! We pride ourselves on offering a delectable array of dishes bursting with flavor, made from the finest ingredients.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Mainmenu</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>234</x>
+     <y>188</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>458</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
